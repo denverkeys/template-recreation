@@ -1,0 +1,58 @@
+#navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+#title{
+    flex-grow: 3;
+    font-family: 'Orelega One', cursive;
+    font-size: 20px;
+}
+
+#brand {
+    flex-grow: 1;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+ #story {
+    flex-grow: 1;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#product {
+    flex-grow: 1;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#people {
+    flex-grow: 1;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contract {
+    flex-grow: 3;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+} 
+
+#login {
+    background-color: rgb(148,206,223);
+    color: black;
+    padding: 10px 24px;
+    border: none;
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#register {
+    background-color: black;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+}
