@@ -1,8 +1,21 @@
+
+body {
+    background-color: rgb(186,219,236);
+}
+
+
+
+
+
+
+
 #navbar-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 1rem;
+    background-color: rgb(250,251,253);
+    padding-top: 1.5rem;
 }
 #title{
     flex-grow: 3;
@@ -56,3 +69,8 @@
     border: none;
     font-family: 'Roboto', sans-serif;
 }
+
+/* #main-page {
+    background-color: rgb(186,219,236);
+    border-style: solid;
+} */
