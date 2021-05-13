@@ -1,7 +1,7 @@
 
-body {
+/* body {
     background-color: rgb(186,219,236);
-}
+} */
 
 
 
@@ -70,7 +70,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* #main-page {
+#main-page {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: 2rem;
     background-color: rgb(186,219,236);
-    border-style: solid;
-} */
+}
+
+#skin-care {
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
